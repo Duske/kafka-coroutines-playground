@@ -1,0 +1,6 @@
+rootProject.name = 'kafka-coroutines-playground'
+
+include(
+        "kafka-producer",
+        "kafka-consumer"
+)
