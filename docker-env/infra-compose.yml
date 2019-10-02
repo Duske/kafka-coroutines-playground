@@ -13,7 +13,7 @@ services:
       ports:
         - "9092:9092"
       environment:
-        KAFKA_CREATE_TOPICS: "RECEIVED-MESSAGE:20:1"
+        KAFKA_CREATE_TOPICS: "RECEIVED-MESSAGE:500:1"
         KAFKA_ADVERTISED_HOST_NAME: localhost
         KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
         KAFKA_ADVERTISED_PORT: 9092
